@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "DynamicMobileVLCKit"
-    s.version      = "3.3.0"
+    s.version      = "3.3.13"
     s.summary      = "MobileVLCKit is an Objective-C wrapper for libvlc's external interface on iOS."
     s.homepage     = 'https://wiki.videolan.org/VLCKit/'
     s.license      = {
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     }
     s.authors      = 'Pierre d\'Herbemont', { 'Felix Paul Kühne' => 'fkuehne@videolan.org' }
     s.source       = {
-       :http => "https://raw.githubusercontent.com/Dimon70007/DynamicMobileVLCKit/3.3.0/DynamicMobileVLCKit.zip"
+       :http => "https://raw.githubusercontent.com/Dimon70007/DynamicMobileVLCKit/#{s.version}/DynamicMobileVLCKit.zip"
      }
     s.platform     = :ios
     s.public_header_files = "DynamicMobileVLCKit/DynamicMobileVLCKit.framework/Headers/*.h"
